@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "Apayaa";
-const char* password = "00000000";
+const char* ssid = "********";
+const char* password = "***********";
 
 // MQTT Configuration
 const char* mqtt_server = "test.mosquitto.org";
@@ -196,3 +196,4 @@ void loop() {
   }
   delay(1000);
 }
+
